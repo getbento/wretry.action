@@ -6,7 +6,7 @@ if( process.platform === 'win32' )
   if( timeLimit )
   {
     const childProcess = require( 'child_process' );
-    childProcess.execSync( 'git clone https://github.com/Wandalen/wProcessTreeWindows.git ./node_modules/w.process.tree.windows' );
+    childProcess.execSync( 'git clone https://github.com/getbento/wProcessTreeWindows.git ./node_modules/w.process.tree.windows' );
     childProcess.execSync( 'npm i', { cwd: './node_modules/w.process.tree.windows', stdio: 'ignore' } );
   }
 }
